@@ -1,0 +1,22 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.mother {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    display: flex; /*div-i (&others) yan yana duzmek uchundur bc normalda div block elementdir*/
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    padding: 100px;
+    margin-right:100px;
+}
